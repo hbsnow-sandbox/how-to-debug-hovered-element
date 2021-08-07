@@ -1,0 +1,20 @@
+.question1:hover::before {
+  content: "Tooltip";
+  @apply absolute;
+  @apply w-max;
+  @apply -top-12;
+  @apply text-black;
+  @apply bg-red-600;
+  @apply text-white;
+  @apply p-2;
+}
+
+.question2 {
+  @apply absolute;
+  @apply w-max;
+  @apply -top-12;
+  @apply text-black;
+  @apply bg-purple-600;
+  @apply text-white;
+  @apply p-2;
+}
